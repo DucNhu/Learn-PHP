@@ -1,0 +1,76 @@
+
+        .container {
+            width: 100%;height: 100vh;
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+            background: #1CD8D2;
+              /* fallback for old browsers */
+              
+            background: -o-linear-gradient(to bottom,rgb(95, 182, 83), rgb(106, 211, 85), #63cec5); 
+            background: -moz-linear-gradient(to bottom,rgb(95, 182, 83), rgb(106, 211, 85), #63cec5); 
+            background: -webkit-linear-gradient(to bottom,rgb(95, 182, 83), rgb(106, 211, 85), #63cec5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom,rgb(95, 182, 83), rgb(106, 211, 85), #63cec5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        ol {
+            display: none;
+            background: no-repeat url(../images/frame.jpg);
+            background-position: center;
+            background-size: 100%;
+            border-radius: 10px;
+
+            height: 450px;width: 500px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            overflow-y: scroll;
+        }
+
+        li {
+            padding: 5px 0px;
+            margin: 10px 0px;
+        }
+
+        li:first-child {
+            margin-top: 450px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(122, 117, 117);
+            padding: 0px 40px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        li:hover {
+            border-radius: 5px 10px 3px 10px;
+            background: linear-gradient(#00f260,#0575e6); 
+        }
+        li:hover a{color: white}
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            width: 10px;
+            border-radius: 10px;
+            background: linear-gradient(rgb(95, 182, 83), blue, #63cec5);
+        }
+
+        ::-webkit-scrollbar-track {
+            width: 20px;
+            border-radius: 10px;
+            background-color: rgb(238, 238, 238);
+        }
+
+    
+ 
